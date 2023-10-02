@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+* {box-sizing: 
+    border-box;}
+
+body {margin: 0px;
+        padding: 0px;
+    background-color: lightskyblue;}
+
+.telefon {
+    margin: 25px auto;
+    height: 1000px;
+    width: 500px;
+    box-shadow: 0 0 8px gray;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+    border: 15px solid black;
+    position: relative;
+}
+
+.kamera {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    top:10px;
+    left: 229px;
+    background-color: black;
+    box-shadow: 0 0 8px white;
+    z-index: 1;}
+
+.tacka{position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top:5px;
+    left: 5px;
+    background-color: grey;
+    outline: 2px solid mintcream; 
+    z-index: 2;
+
+}
+    
+img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    filter: brightness(50%);
+    position: relative;
+    z-index: -1;
+    
+} 
+
+.donje_ikonice{
+    height: 70px;
+    width: 70px;
+    filter: brightness(100%);  
+    margin: 0 17px; 
+    z-index: 1;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+.donje_ikonice:hover{
+    transform: scale(0.8);
+}
+
+.dno {
+    margin-top: 800px;
+    margin-left: 10px;
+     width: 435px;
+     height: 80px;
+    transform: translate(-50%, 50%);
+    z-index: 1;
+    position: relative;
+}
+
+iframe {
+    width: 490px;
+    width: 100%;
+    height: 120%;
+    object-fit:cover;
+    outline: none;
+    border: none;
+    transition: 0.8s ease-in-out;
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+
+.zvanje {
+    cursor: pointer;
+}
+
+.nav {display: flex; 
+    margin-top:35px;
+    margin-left: -150px;
+  
+}
+    
+.pozadina { background-color: white;
+    filter: brightness(100%);  
+    padding: 3px;
+    margin-left: 50px;
+    box-shadow: 0 0 8px black;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+.pozadina:hover{
+   transform: scale(0.8);
+}
+
+.levi {
+    cursor: pointer;
+    z-index: 1;
+
+}
+.centar {
+    cursor: pointer;
+    z-index: 1;
+}
+
+.desni{
+    cursor: pointer;
+    z-index: 1;
+    
+}
+
+.glavne_ikonice{
+    margin-top: 535px;
+    margin-left: -207px;
+     width: 435px;
+     height: 80px;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.stil {
+    height: 70px;
+    width: 70px;
+    filter: brightness(100%);  
+    margin: 0 17px; 
+    z-index: 1;
+    margin-bottom: 65px;
+    transition: all 1s;
+    cursor: pointer;
+
+}
+
+.stil:hover{
+    transform: rotate(360deg);
+}
+
+input[type="text" i]{
+    margin-top: 425px;
+    margin-left: -200px;
+     width: 410px;
+     height: 60px;
+    z-index: 1;
+    position: absolute;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: rgb(48, 48, 48);
+    font-size: 30px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 1s;
+
+}
+
+input[type="text" i]:focus{
+   background-color: black;
+}
+
+.sat {
+    margin-top: 55px;
+    margin-left: -214px;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(255,255,255,0.1);
+    width: 440px;
+    padding-left: 15px;
+    box-shadow: 0 0 8px black;
+    border-radius: 5px;
+    font-family: 'Martel Sans', sans-serif;
+    height: 185px;
+    color: wheat;
+
+}
+
+#time {
+    font-size: 75px;
+    margin-top: 15px;
+}
+
+#date {
+    font-size: 25px;
+    margin-top: -95px;
+}
+
+  #time2{
+    margin-top: -5px;
+    margin-left: -214px;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: 'Italianno', cursive;
+    font-size: 35px;
+    letter-spacing: 5px;
+
+  }
+
+.calculator {
+    margin-top: 620px;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    font-family: 'Italianno', cursive;
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: -210px;
+    transition: all 1s;
+
+}
+
+.gp {margin-top: 610px;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    font-family: 'Italianno', cursive;
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: -80px;
+    text-align: center;
+    line-height:30px;
+    transition: all 1s;
+}
+
+.fb {margin-top: 620px;
+        z-index: 1;
+        position: absolute;
+        color: white;
+        font-family: 'Italianno', cursive;
+        font-size: 35px;
+        font-weight: 800;
+        margin-left: 10px;
+        transition: all 1s;
+       }
+
+.ig {
+margin-top: 620px;
+z-index: 1;
+position: absolute;
+color: white;
+font-family: 'Italianno', cursive;
+font-size: 35px;
+font-weight: 800;
+margin-left: 120px;
+transition: all 1s;
+
+}
+.yt {
+    margin-top: 755px;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    font-family: 'Italianno', cursive;
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: -205px;
+    transition: all 1s;
+
+}
+
+.wa {
+    margin-top: 755px;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    font-family: 'Italianno', cursive;
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: -100px;
+    transition: all 1s;
+
+}
+
+.tk {
+    margin-top: 755px;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    font-family: 'Italianno', cursive;
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: 20px;
+    transition: all 1s;
+
+}
+
+.vb {
+    margin-top: 755px;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    font-family: 'Italianno', cursive;
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: 140px;
+    transition: all 1s;
+
+}
+
+.gp:hover{
+    color: aqua;
+    transform: scale(1.1);
+}
+
+.fb:hover{
+    color: aqua;
+    transform: scale(1.1);
+}
+
+.ig:hover{
+    color: aqua;
+    transform: scale(1.1);
+}
+
+.yt:hover{
+    color: aqua;
+    transform: scale(1.1);
+}
+
+.wa:hover{
+    color: aqua;
+    transform: scale(1.1);
+}
+
+
+.tk:hover{
+    color: aqua;
+    transform: scale(1.1);
+}
+
+
+.vb:hover{
+    color: aqua;
+    transform: scale(1.1);
+}
+
+
+.calculator:hover{
+    color: aqua;
+    transform: scale(1.1);
+}
+
+.simbol{
+    height: 25px;
+    width: 25px;
+    filter: brightness(100%);  
+    margin-top: 443px;
+    margin-left: -185px;
+    z-index: 2;
+    position: absolute;
+    cursor: pointer;
+    animation: 4s infinite rotacija;
+
+}
+
+@keyframes rotacija {
+    10% {transform: rotate(360deg);};
+    60% {transform: rotate(-360deg);};
+
+}
+
+
+@keyframes zum{
+
+    10% {transform: scale(1.6);};
+    40% {transform: scale(1.6);};
+    70% {transform: scale(1.4);};
+    100% {transform: scale(1.3);}
+
+}
+
+.mikrofon {
+    height: 30px;
+    width: 30px;
+    filter: brightness(100%);  
+    margin-top: 440px;
+    margin-left: 165px; 
+    z-index: 2;
+    position: absolute;
+    cursor: pointer;
+    animation: 3s infinite zum;
+
+}
+
+/* Ovo je baterija*/
+
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  #battery {
+    box-sizing: content-box;
+    height:  7.8em;
+    width:  17.5em;
+    border: 0.6em solid aqua;  
+    margin: auto;
+    border-radius: 0.6em;  
+    position: relative;
+    display: grid;
+    place-items: center;
+    margin-top: -215px;
+    margin-left: -15px;
+    font-family: 'Martel Sans', sans-serif;
+  }
+  #battery:before {
+    position: absolute;
+    content: "";
+    height: 5em;
+    width: 1.1em;
+    background-color: aqua;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: -1.6em;
+    border-radius: 0 0.3em 0.3em 0;
+  }
+  #charge {
+    position: absolute;
+    height: 6.5em;
+    width: 16.25em;
+    background-color: white;
+    top: 0.6em;
+    left: 0.6em;
+  }
+  #charge-level {
+    position: absolute;
+    font-size:  3em;
+    font-weight: 500;
+  }
+  #charging-time {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 60px;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 25px;
+
+  }
+  .active {
+    animation: charge-animation 3s infinite linear;
+  }
+  @keyframes charge-animation {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 16.25em;
+    }
+  }
+
+  /*---------------------------*/
+
+
+#video{
+    width: 490px;
+    z-index: 1;
+    width: 490px;
+    width: 100%;
+    height: 105%;
+    object-fit:cover;
+    outline: none;
+    border: none;
+    transition: 0.8s ease-in-out;
+    position: relative;
+    display: none;
+
+}
+
+#stig{
+    width: 490px;
+    z-index: 1;
+    width: 100%;
+    height: 120%;
+    object-fit:cover;
+    outline: none;
+    border: none;
+    transition: 0.8s ease-in-out;
+    position: relative;
+    display: none
+
+}
+
+#stwa{
+    width: 495px;
+    z-index: 1; 
+     width: 173%; 
+    height: 120%; 
+    object-fit:cover;
+    outline: none;
+    border: none;
+    transition: 0.8s ease-in-out;
+    position: relative;
+    display: none;
+
+}
+
+#sttk{
+    width: 495px;
+    z-index: 1; 
+     width: 100%; 
+    height: 120%; 
+    object-fit:cover;
+    outline: none;
+    border: none;
+    transition: 0.8s ease-in-out;
+    position: relative;
+    display: none;
+
+}
+
+#stfb{
+    width: 495px;
+    z-index: 1; 
+     width: 100%; 
+    height: 105%; 
+    object-fit:cover;
+    outline: none;
+    border: none;
+    transition: 0.8s ease-in-out;
+    position: relative;
+    display: none;
+
+}
+
+#stvb{
+    width: 495px;
+    z-index: 1; 
+     width: 110%; 
+    height: 100%; 
+    object-fit:cover;
+    outline: none;
+    border: none;
+    transition: 0.8s ease-in-out;
+    position: relative;
+    display: none;
+
+}
+
+#gopy{
+    width: 495px;
+    z-index: 1; 
+     width: 110%; 
+    height: 100%; 
+    object-fit:cover;
+    outline: none;
+    border: none;
+    transition: 0.8s ease-in-out;
+    position: relative;
+    display: none;
+
+}
+
+#vi { 
+    width: 495px;
+    z-index: 1; 
+     width: 110%; 
+    height: 100%; 
+    object-fit:cover;
+    outline: none;
+    border: none;
+    transition: 0.8s ease-in-out;
+    position: relative;
+    display: none;
+}
+
+.message {
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    display: none;
+
+}
+
+#posalji {
+   padding: 15px;
+   margin: 0 15px 50px 15px;
+   border-radius: 5px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   position: relative;
+   cursor: pointer;
+   display: none;
+   font-size: 25px;
+   transition: 1s all ease-in-out;
+   border-radius: 5px;
+
+}
+
+#posalji:hover{
+    background-color: darkred;
+   
+}
+
+#posalji:active{
+    background-color: rgb(92, 3, 3);
+    top:2px;
+    left: 2px;
+   
+}
+
+textarea{
+   font-size: 2em;
+   height: 80px;
+   border-radius: 15px;
+   margin: 0 15px 50px 15px;
+   display: none;
+   background-color: rgb(40, 39, 39);
+   color: white;
+   transition: 2s all ease;
+ 
+}
+
+textarea:focus{
+    background-color: black;
+}
+
+.naslov {
+    height: 100px;
+    width: 100%;
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 10px;
+    font-weight: 800;
+    box-shadow: 0 0 35px green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: none;
+    transition: 1s all ease-in;
+    
+}
+
+.naslov:hover{
+    border-bottom: 100px solid darkred;
+    transform:translateY(50%); 
+
+}
+
+.prporuka{
+    width: 400px;
+    max-height: 500px;
+    background-color: darkgreen;
+    position: relative;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 10px;
+    box-shadow: 0 0 8px black;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    display: block;
+   
+}
+
+.zajedno{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+  
+}
+
+h3{font-size: 75px;
+    transition: 1s all ease-in-out;
+}
+
+
+::-webkit-scrollbar {
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    width: 45px;
+
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #ff8a00;
+    border: 5px dashed black;
+    width: 45px;
+    border-radius: 50px;
+   
+  }
+
+  ::-webkit-scrollbar-thumb:hover{
+    background-color: darkred;
+
+  }
+
+#background{
+    animation: 10s infinite pozadina;
+    height: 100vh;
+    cursor: url('./Slike/srce.png'), auto;
+    }
+
+@keyframes pozadina {
+    10%{background-color: darkkhaki;}
+    40%{background-color: grey;}
+    70%{background-color: burlywood;}
+    100%{background-color: grey;}
+}
+
+
+  
+  
+  
