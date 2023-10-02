@@ -1,0 +1,383 @@
+/* Uredjaji do sirine od 400 piksela ekrana */
+
+@media(min-width:350px) and (max-width:420px){
+    ul {
+        min-width: 200px;
+        /* margin-right: -7px; */
+    }
+
+    .div-pretraga, .skiptranslate {
+     display: none;
+    }
+
+    .logo {
+        margin-left: 10px;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        left: -5px;
+    }
+li{
+    margin-left: 5px;
+}
+    .slika {
+        width: 285px;
+        height: 285px;
+    }
+
+    .text {
+        width: 255px;
+        border-radius: 15px;
+        
+}
+
+
+
+.pomocna_klasa {
+  justify-content: flex-end;
+  align-items: end;
+  display: flex;
+}
+
+.scroll-button{
+    right: 10px!important;
+}
+
+
+textarea {
+    max-width: 300px!important;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.reg {
+    max-width: 345px!important;
+    min-height: 400px!important;
+}
+
+.log {
+    max-width: 350px!important;
+    min-height: 350px;
+}
+
+iframe {
+    width: 350px;
+    height: 300px;
+}
+
+form {
+    max-width: 360px!important;
+    margin: 10px auto;
+
+}
+
+.unosi {
+    margin: 15px;
+}
+
+.upozorenje {
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+.adresa {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+}
+
+.zeleno {
+    width: 105px;
+    font-size: 15px;
+}
+
+.desno {
+    align-items:end;
+}
+
+/* input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+textarea,
+input[type="submit"]{
+   margin-left: 0px;
+} */
+
+.slike2{
+    max-width: 430px;
+    margin-left: -10px;
+}
+
+.omotac {
+    max-width: 370px;
+}
+
+.odmak {
+    width: 390px;
+}
+
+
+}
+
+/* Uredaji do sirine od 576 piksela ekrana */
+
+
+@media (max-width:576px)  {
+    .glavno {
+        display: none;
+    }
+    .status {
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    .vreme {
+       background-color: lightsalmon;
+       color: black;  
+    
+    }
+
+    .vikend {
+        background-color: skyblue;
+    }
+
+    .naslov-container {
+      padding: 15px;
+      font-size: 25px;
+      border-radius: 55px;
+    }
+
+    .naslov {
+       background-color: rgba(20, 112, 18, 0.1);
+
+    }
+    .centar {
+    
+        display: block;
+        text-align: center;
+    }
+    .text {
+        margin: -20px 45px;
+        margin-bottom: 20px;
+    }
+
+    .gl-text {
+        width: 100%!important;
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 5px;
+        text-shadow: 2px 2px 25px darkorange;
+
+    }
+
+    .omotac {
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;   
+        
+    }
+
+    .slike2 {
+        padding: 0 15px;
+    }
+
+    .unosi{
+        max-width:576px;
+        width: 100%;
+    
+    }
+
+    input[type="text"]{
+        max-width: 300;
+    }
+
+    input[type="number"]{
+        max-width: 300;
+    }
+    
+    textarea {
+        max-width: 550px;
+        width: 100%;
+    }
+
+    .textarea {
+        max-width: 550px;
+        width: 100%;
+    }
+
+    form{
+        max-width:480px;
+        width: 100%; 
+        
+    }
+
+    .reg {
+        max-width:480px;
+        width: 100%;  
+        margin: 15px auto;
+        min-height: 480px;
+    }
+
+    .log {
+        max-width:480px;
+        width: 100%;  
+        margin: 15px auto;
+    }
+
+    .scroll-button {
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        display: none;
+        cursor: pointer;
+        box-shadow: 0 0 25px black;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+
+      .mreze {
+        display: none;
+      }
+     .min {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 45px;
+        box-shadow: 18px  8px 8px black;
+        border: 7px solid grey;
+        height: 65px;
+        width: 65px;
+
+     }
+
+     .ikonice2 {
+        width: 75px;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+     }
+
+     .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+}
+
+/* Uredaji do sirine od 768 piksela ekrana */
+
+@media (max-width:768px){
+    .glavno {
+        display: none;
+    }
+    .mreze {
+        display: none;
+      }
+
+}
+
+
+/* Uredaji do sirine od 992 piksela ekrana */
+
+@media (max-width:992px)  {
+    .status {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .naslov-container {
+        padding: 15px;
+        font-size: 30px;
+    
+      }
+
+      .status {
+        text-align: center;
+        min-height: 220px;
+      
+    }
+
+    .gl-text {
+        width: 45%;
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 5px;  
+
+    }
+
+    .omotac {
+        
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-left: 10px!important;
+        margin-right: 10px!important;
+              
+    }
+
+    .slike2 {
+        padding: 0px 15px;
+    
+       
+    }
+
+    .scroll-button {
+        position: fixed;
+        bottom: 5px;
+        right: 3px;
+        display: none;
+        cursor: pointer;
+        box-shadow: 0 0 25px black;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+
+}
+
+@media (max-width:790px){
+    .unosi{
+        max-width:650px;
+        width: 100%;
+    
+    
+    }
+
+    textarea {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .textarea {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .centar {
+    
+        display: block;
+        text-align: center;
+    }
+
+    form {
+        max-width: 470px;
+        width: 100%;
+  
+}
+
+}
